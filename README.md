@@ -1,5 +1,6 @@
 #node-vue
-Vue.js boilerplate using express & node as back-end.<br><br>
+Vue.js boilerplate using express & node as back-end.
+
 ## Installation
 ```sh
 npm install --save node-vue
