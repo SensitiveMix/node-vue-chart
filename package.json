@@ -1,0 +1,30 @@
+{
+  "name": "node-vue",
+  "description": "Vue.js boilerplate using Express.js & Node.js as back-end",
+  "version": "0.0.2",
+  "git": "https://github.com/afterburn/node-vue",
+  "author": "Kevin Karsopawiro <k.karsopawiro@gmail.com> (http://kevsky.com)",
+  "scripts": {
+    "start": "node server.js",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "vue": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "nodemon": "^1.11.0",
+    "vue-loader": "^10.0.0",
+    "vue-template-compiler": "^2.1.0",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-dev-server": "^2.1.0-beta.9",
+    "webpack-hot-middleware": "^2.14.0"
+  }
+}
