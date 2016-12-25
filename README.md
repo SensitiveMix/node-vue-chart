@@ -7,7 +7,7 @@ npm install --save node-vue
 ```
 
 ## Bugs
-- At the moment the entire boilerplate will be added  to your node_modules when running <code>npm install --save node-vue</code>, which is not the intent.
+- At the moment the entire boilerplate will be added  to your node_modules when running <code>npm install --save node-vue</code>, which is not the intent. I'm looking for a workaround.
 
 
 ## Todo
