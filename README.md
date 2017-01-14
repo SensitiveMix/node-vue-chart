@@ -1,5 +1,15 @@
 #node-vue
-Vue.js boilerplate using express & node as back-end.
+Vue.js template using express & node as back-end & paint by chart.js.
+
+### Contains
+- [x] [Node.js](https://github.com/nodejs/node)
+- [x] [Express](https://github.com/expressjs/express)
+- [x] [Jquery](https://github.com/jquery/jquery)
+- [x] [Vue](https://github.com/vuejs/vue)
+- [x] [Webpack 2](https://webpack.js.org/?utm_source=github&utm_medium=readme&utm_campaign=top)
+- [x] [Babel](https://babeljs.io/)
+- [x] [Socket.IO](https://github.com/socketio/socket.io)
+
 
 ## Installation
 ```sh
@@ -10,10 +20,37 @@ copy node-vue folder to wherever you want your project to reside
 npm start
 ```
 
-## Bugs
-At the moment the entire boilerplate will be added  to your node_modules when running <code>npm install --save node-vue</code>, which is not the intent. You'll have to run <code>npm install</code> twice (once to download the module from npm to your machine, and once after navigating to <code>node_modules/node-vue</code> to also install the boilerplate's dependencies. I'm currently looking for a workaround, but the boilerplate still works if you run <code>npm start</code> from the <code>node_modules/node-vue</code> folder.
+## Documentation
+[chart.js](http://www.chartjs.org/)
 
+
+## Bugs
+[Chart-Bugs](https://github.com/sunNode/node-socket-chart/issues)
 
 ## Todo
 - Automatically open the project in a browser.
 - Trigger hot reload when non-vue files are updated.
+
+
+## License
+MIT License
+
+Copyright (c) 2017 Jack Sun
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

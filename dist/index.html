@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>vue-boilerplate</title>
+    <meta charset="utf-8">
+    <title>node-vue-chart</title>
 </head>
 <body>
-	<div id="app"></div>
-	<script src="/dist/bundle.js"></script>
+<div id="app"></div>
+<canvas id="tickerChart"></canvas>
+<canvas id="orderBookChart"></canvas>
+<canvas id="connectedChart"></canvas>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.js"></script>
+<script src="http://localhost:8080/socket.io/socket.io.js"></script>
+<script>
+    this.socket = io.connect('ws://localhost:8080')
+    this.socket.on('ticker', (d) => {
+        let ctx_ticker = document.getElementById("tickerChart")
+        new Chart(ctx_ticker, {
+            type: 'line',
+            data: {
+                labels: d.labels,
+                datasets: d.datasets
+            },
+            options: {
+                responsive: true
+            }
+        })
+    })
+    this.socket.on('orderBook', (d) => {
+        let ctx_orderBook = document.getElementById("orderBookChart")
+        new Chart(ctx_orderBook, {
+            type: 'line',
+            data: {
+                labels: d.labels,
+                datasets: d.datasets
+            },
+            options: {
+                responsive: true
+            }
+        })
+    })
+    this.socket.on('connected', (d) => {
+        let ctx_connected = document.getElementById("connectedChart")
+
+        new Chart(ctx_connected, {
+            type: 'line',
+            data: {
+                labels: d.labels,
+                datasets: d.datasets
+            },
+            options: {
+                responsive: true
+            }
+        })
+    })
+</script>
 </body>
 </html>

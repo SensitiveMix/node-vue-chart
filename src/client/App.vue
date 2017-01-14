@@ -1,16 +1,6 @@
 <template>
-	<div id="app">{{title}}</div>
+    <div id="app">{{title}}</div>
 </template>
-
-<script>
-	export default {
-		data () {
-			return {
-				title: 'Vue + Node.js boilerplate'
-			}
-		}
-	}
-</script>
 
 <style>
 * {
@@ -38,4 +28,9 @@
 	position: absolute;
 	margin-top: -80px;
 }
+#tickerChart,#orderBookChart{
+    width:100%;
+    height:400px;
+}
+
 </style>
