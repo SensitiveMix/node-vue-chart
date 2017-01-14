@@ -2,7 +2,7 @@
 
 
 
-Vue.js template using express & node as back-end & paint by chart.js.
+Vue.js raw template using express & node as back-end & paint by chart.js.
 
 ### Contains
 - [x] [Node.js](https://github.com/nodejs/node)
