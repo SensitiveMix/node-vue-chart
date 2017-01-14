@@ -15,11 +15,17 @@ Vue.js raw template using express & node as back-end & paint by chart.js.
 
 
 ## Installation
-```sh
-npm install --save node-vue
-cd node_modules/node-vue
+```bash
+git clone git@github.com:sunNode/node-vue-chart.git
+```
+
+## Install dependencies
+```bash
 npm install
-copy node-vue folder to wherever you want your project to reside
+```
+
+## Usage
+```bash
 npm start
 ```
 
