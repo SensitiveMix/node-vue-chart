@@ -16,7 +16,7 @@ Vue.js raw template using express & node as back-end & paint by chart.js.
 
 ## Installation
 ```bash
-git clone git@github.com:sunNode/node-vue-chart.git
+git clone git@github.com:SensitiveMix/node-vue-chart.git
 ```
 
 ## Install dependencies
