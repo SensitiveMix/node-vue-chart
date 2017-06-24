@@ -5,6 +5,8 @@
 Vue.js raw template using express & node as back-end & paint by chart.js.
 
 ### Contains
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/SensitiveMix/node-vue-chart.svg)](https://greenkeeper.io/)
 - [x] [Node.js](https://github.com/nodejs/node)
 - [x] [Express](https://github.com/expressjs/express)
 - [x] [Jquery](https://github.com/jquery/jquery)
